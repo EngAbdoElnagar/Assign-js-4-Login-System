@@ -1,0 +1,55 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #24353f;
+}
+
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  color: #17a2b8;
+}
+.form-control {
+  color: #fff;
+  background-color: #24353f;
+  border: 1px solid white;
+}
+.form-control:focus {
+  color: white;
+  background-color: #24353f;
+  border-color: rgba(13, 110, 253, 0.6) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(13, 110, 253, 0);
+}
+.btn {
+  --bs-btn-color: #17a2b8;
+  --bs-btn-bg: #24353f;
+  --bs-btn-border-color: #17a2b8;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+#home nav {
+  background-color: #24353f !important;
+}
+input {
+  color: white;
+}
+
+#home .btn {
+  --bs-btn-color: #ffc107;
+  --bs-btn-bg: #24353f;
+  --bs-btn-border-color: #ffc107;
+}
+#home .btn:hover {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+#home .container h1 {
+  background-color: #24353f !important;
+}
+.group {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1) !important;
+}
